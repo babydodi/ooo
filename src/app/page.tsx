@@ -134,7 +134,6 @@ export default function Home() {
               اجتز اختبار 
               <span className="bg-gradient-to-r from-blue-600 via-purple-500 to-blue-600 bg-clip-text text-transparent"> STEP </span>
               بثقة
-              {/* Decorative gradient line under title */}
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent rounded-full"></div>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
@@ -144,7 +143,6 @@ export default function Home() {
             {/* Search Bar */}
             <div className="max-w-2xl mx-auto mb-12 relative">
               <div className="relative">
-                {/* Gradient border effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 rounded-full p-0.5">
                   <div className="bg-white rounded-full h-full w-full"></div>
                 </div>
@@ -212,7 +210,6 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="text-center p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-gray-50 via-white to-blue-50 border border-gray-100 hover:border-blue-200 relative overflow-hidden group">
-                {/* Gradient line on hover */}
                 <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-100 to-purple-100 text-blue-600 rounded-2xl mb-6 relative">
                   {feature.icon}
@@ -250,7 +247,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <p className="text-gray-600 leading-relaxed mb-4">"{testimonial.text}"</p>
+                <p className="text-gray-600 leading-relaxed mb-4">“{testimonial.text}”</p>
                 <div className="flex text-yellow-400">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-5 h-5 fill-current" />
@@ -264,7 +261,6 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 relative overflow-hidden">
-        {/* Animated gradient lines */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-white to-transparent animate-pulse"></div>
           <div className="absolute bottom-0 right-0 w-full h-0.5 bg-gradient-to-r from-transparent via-white to-transparent animate-pulse delay-1000"></div>
